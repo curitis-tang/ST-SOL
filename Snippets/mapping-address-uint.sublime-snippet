@@ -1,0 +1,11 @@
+
+<snippet>
+	<content><![CDATA[
+mapping (${1:address} => ${2:uint}) ${3:myMapping};
+
+]]></content>
+	<tabTrigger>mapping</tabTrigger>
+	<description>创建mapping</description>
+	<scope>source.solidity</scope>
+</snippet>
+

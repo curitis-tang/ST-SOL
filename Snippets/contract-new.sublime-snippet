@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @title ${1}
+ * @dev ${2}
+ * @author ${3}
+ */
+contract ${4:contractName} {
+
+	constructor() public {
+		${5}
+	}	
+}
+
+]]></content>
+	<tabTrigger>contract</tabTrigger>
+	<description>创建合约</description>
+	<scope>source.solidity</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+function ${1:myFunction}($2) public view ${3:returns(${4:bool res})}  {
+	${5}
+}
+
+]]></content>
+	<tabTrigger>funpv</tabTrigger>
+	<description>创建public view函数</description>
+	<scope>source.solidity</scope>
+</snippet>

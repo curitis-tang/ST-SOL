@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+
+assert (${1:address(msg.sender) != 0});
+
+]]></content>
+	<tabTrigger>ass</tabTrigger>
+	<description>address不为0</description>
+	<scope>source.solidity</scope>
+</snippet>

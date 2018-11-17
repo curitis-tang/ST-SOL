@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+modifier checkMsgSender() { 
+	require (msg.sender == ${1:_owner}); 
+	_; 
+}
+
+]]></content>
+	<tabTrigger>modifier</tabTrigger>
+	<description>检查调用者是否是_owner</description>
+	<scope>source.solidity</scope>
+</snippet>

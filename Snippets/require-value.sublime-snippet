@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+
+require (${1:msg.value > 0});
+
+]]></content>
+	<tabTrigger>require</tabTrigger>
+	<description>require value > 0</description>
+	<scope>source.solidity</scope>
+</snippet>

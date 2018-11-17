@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+function ${1:myFunction}($2) private ${3:returns(${4:bool res})}  {
+	${5}
+}
+
+]]></content>
+	<tabTrigger>funpr</tabTrigger>
+	<description>创建private函数</description>
+	<scope>source.solidity</scope>
+</snippet>

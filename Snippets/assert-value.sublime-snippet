@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+
+assert (${1:msg.value > 0});
+
+]]></content>
+	<tabTrigger>ass</tabTrigger>
+	<description>value大于0</description>
+	<scope>source.solidity</scope>
+</snippet>

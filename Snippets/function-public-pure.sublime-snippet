@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+function ${1:myFunction}($2) public pure ${3:returns(${4:bool res})}  {
+	${5}
+}
+
+]]></content>
+	<tabTrigger>funpp</tabTrigger>
+	<description>创建public pure函数</description>
+	<scope>source.solidity</scope>
+</snippet>

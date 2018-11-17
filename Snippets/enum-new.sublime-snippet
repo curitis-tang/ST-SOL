@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+enum ${1:EnumName} { ${2:Red}, ${3:Green} }
+
+]]></content>
+	<tabTrigger>enum</tabTrigger>
+	<description>创建枚举</description>
+	<scope>source.solidity</scope>
+</snippet>
+

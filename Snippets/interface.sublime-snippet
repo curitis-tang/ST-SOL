@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @title ${1}
+ * @dev ${2}
+ * @author ${3}
+ */
+interface ${4:interfaceName} {
+	function ${5} (${6});	
+}
+
+]]></content>
+	<tabTrigger>interface</tabTrigger>
+	<description>创建接口</description>
+	<scope>source.solidity</scope>
+</snippet>

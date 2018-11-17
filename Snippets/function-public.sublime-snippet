@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+function ${1:myFunction}($2) public ${3:returns(${4:bool res})}  {
+	${5}
+}
+
+]]></content>
+	<tabTrigger>funp</tabTrigger>
+	<description>创建public函数</description>
+	<scope>source.solidity</scope>
+</snippet>

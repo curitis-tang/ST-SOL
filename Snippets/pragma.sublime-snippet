@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+pragma solidity ${1:^0.4.24;}
+
+]]></content>
+	<tabTrigger>pragma</tabTrigger>
+	<description>pragma</description>
+	<scope>source.solidity</scope>
+</snippet>

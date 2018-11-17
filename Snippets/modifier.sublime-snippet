@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+modifier ${1:modifierName}() { 
+	require (${2}); 
+	_; 
+}
+
+]]></content>
+	<tabTrigger>modifier</tabTrigger>
+	<description>创建modifier</description>
+	<scope>source.solidity</scope>
+</snippet>

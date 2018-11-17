@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+
+import "./${1:file}.sol";
+
+]]></content>
+	<tabTrigger>import</tabTrigger>
+	<description>import 文件</description>
+	<scope>source.solidity</scope>
+</snippet>

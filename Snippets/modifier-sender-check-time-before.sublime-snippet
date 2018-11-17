@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+modifier checkTimeBefore() { 
+	require (now <= ${1:_time}); 
+	_; 
+}
+
+]]></content>
+	<tabTrigger>modifier</tabTrigger>
+	<description>检查当前时间是否小于给定时间</description>
+	<scope>source.solidity</scope>
+</snippet>

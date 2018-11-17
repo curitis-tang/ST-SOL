@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+event ${1:LogName}(${2:address indexed ${3:param}}) anonymous;
+
+]]></content>
+	<tabTrigger>event</tabTrigger>
+	<description>定义匿名事件</description>
+	<scope>source.solidity</scope>
+</snippet>

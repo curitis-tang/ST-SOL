@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+event ${1:LogName}(${2:address indexed victim});
+
+]]></content>
+	<tabTrigger>event</tabTrigger>
+	<description>定义事件</description>
+	<scope>source.solidity</scope>
+</snippet>
